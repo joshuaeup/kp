@@ -1,0 +1,9 @@
+#footer-container {
+    height: 8vh;
+    border-top: rgba(211, 212, 247, 0.514) solid 3px;
+    background-color: white
+}
+
+#footer-container__text {
+    text-align: center
+}

@@ -1,0 +1,32 @@
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets//images/car-banner.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 42vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#banner__text {
+    margin: 0 15rem;
+    color: white;
+    font-size: 1.5rem
+}
+
+#grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 2rem;
+    grid-gap: 2rem;
+}
+
+#grid__item {
+    background-color: rgba(153, 156, 235, 0.514);
+    height: 35vh;
+    width: 20vw;
+    justify-self: center;
+}

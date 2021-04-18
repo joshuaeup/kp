@@ -1,0 +1,37 @@
+#navigation-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    padding: 0 2rem;
+    border-bottom: rgba(211, 212, 247, 0.514) solid 3px;
+}
+
+
+
+#navigation-container__title,
+#navigation-container__contact p,
+#navigation-container__header {
+    margin: 0;
+    padding: 0;
+}
+
+#navigation-container__contact p {
+    font-size: 1.5rem;
+    text-align: center
+}
+
+#navigation-container__title {
+    text-align: start;
+    font-size: 1.5rem
+}
+
+#navigation-container__header {
+    text-align: end;
+    font-size: 2rem
+}
+
+#navigation-container__header i {
+    color: tan;
+}
