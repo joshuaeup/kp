@@ -28,10 +28,21 @@
 }
 
 #navigation-container__header {
-    text-align: end;
-    font-size: 2rem
+    font-size: 2rem;
+    align-self: center;
 }
 
 #navigation-container__header i {
     color: tan;
+}
+
+#logo-container {
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+}
+
+#logo {
+    height: 8vh;
+    width: auto;
 }

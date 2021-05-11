@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navigation.css";
+import logo from "../../assets/images/logo.png";
 
 const Navigation = () => {
     return (
@@ -9,9 +10,13 @@ const Navigation = () => {
                 <p>Contact us!</p>
                 <p>888-888-8888</p>
             </div>
-            <h1 id="navigation-container__header">
-                <i className="fas fa-circle"></i> Exemplary Valet Services
-            </h1>
+            <div id="logo-container">
+                <img id="logo" alt="logo" src={logo} />
+                {/* <span> */}
+                <h1 id="navigation-container__header">
+                    Exemplary Valet Services
+                </h1>
+            </div>
         </navigation>
     );
 };
